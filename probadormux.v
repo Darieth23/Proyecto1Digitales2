@@ -1,4 +1,4 @@
-module probador_mux4a1(
+module probador_mux(
     //entradas
     output reg clk_2f,
     output reg clk_4f,
