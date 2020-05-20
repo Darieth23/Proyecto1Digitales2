@@ -1,0 +1,334 @@
+$date
+	Wed May 20 14:22:18 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mux2a1ochobits_descp_cond $end
+$var wire 8 ! data_in0_mux2 [7:0] $end
+$var wire 8 " data_in1_mux2 [7:0] $end
+$var wire 1 # reset_L $end
+$var wire 1 $ selector $end
+$var wire 1 % valid0 $end
+$var wire 1 & valid1 $end
+$var wire 1 ' valid_out $end
+$var wire 1 ( validout $end
+$var wire 8 ) dataout_mux2 [7:0] $end
+$scope module mux2a1dosits_cuatro $end
+$var wire 2 * data_in0 [1:0] $end
+$var wire 2 + data_in1 [1:0] $end
+$var wire 1 # reset_L $end
+$var wire 1 $ selector $end
+$var wire 1 % valid0 $end
+$var wire 1 & valid1 $end
+$var reg 2 , dataout_mux2a1dosbits [1:0] $end
+$var reg 2 - temp1 [1:0] $end
+$var reg 2 . temp2 [1:0] $end
+$var reg 1 / validout $end
+$upscope $end
+$scope module mux2a1dosits_dos $end
+$var wire 2 0 data_in0 [1:0] $end
+$var wire 2 1 data_in1 [1:0] $end
+$var wire 1 # reset_L $end
+$var wire 1 $ selector $end
+$var wire 1 % valid0 $end
+$var wire 1 & valid1 $end
+$var reg 2 2 dataout_mux2a1dosbits [1:0] $end
+$var reg 2 3 temp1 [1:0] $end
+$var reg 2 4 temp2 [1:0] $end
+$var reg 1 5 validout $end
+$upscope $end
+$scope module mux2a1dosits_tres $end
+$var wire 2 6 data_in0 [1:0] $end
+$var wire 2 7 data_in1 [1:0] $end
+$var wire 1 # reset_L $end
+$var wire 1 $ selector $end
+$var wire 1 % valid0 $end
+$var wire 1 & valid1 $end
+$var reg 2 8 dataout_mux2a1dosbits [1:0] $end
+$var reg 2 9 temp1 [1:0] $end
+$var reg 2 : temp2 [1:0] $end
+$var reg 1 ; validout $end
+$upscope $end
+$scope module mux2a1dosits_uno $end
+$var wire 2 < data_in0 [1:0] $end
+$var wire 2 = data_in1 [1:0] $end
+$var wire 1 # reset_L $end
+$var wire 1 $ selector $end
+$var wire 1 % valid0 $end
+$var wire 1 & valid1 $end
+$var reg 2 > dataout_mux2a1dosbits [1:0] $end
+$var reg 2 ? temp1 [1:0] $end
+$var reg 2 @ temp2 [1:0] $end
+$var reg 1 A validout $end
+$upscope $end
+$upscope $end
+$scope module probador_mux $end
+$var wire 8 B dataout_mux [7:0] $end
+$var wire 1 C validout $end
+$var wire 1 D validout0 $end
+$var wire 1 E validout1 $end
+$var reg 1 F clk $end
+$var reg 1 G clk_2f $end
+$var reg 1 H clk_4f $end
+$var reg 8 I data_in0_mux [7:0] $end
+$var reg 8 J data_in1_mux [7:0] $end
+$var reg 8 K data_in2_mux [7:0] $end
+$var reg 8 L data_in3_mux [7:0] $end
+$var reg 1 M reset_L $end
+$var reg 1 N valid0 $end
+$var reg 1 O valid1 $end
+$var reg 1 P valid2 $end
+$var reg 1 Q valid3 $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+xQ
+xP
+xO
+xN
+0M
+bx L
+bx K
+bx J
+bx I
+0H
+0G
+0F
+zE
+zD
+zC
+bz B
+zA
+bx @
+bz ?
+bx >
+bz =
+bz <
+z;
+bx :
+bz 9
+bx 8
+bz 7
+bz 6
+z5
+bx 4
+bz 3
+bx 2
+bz 1
+bz 0
+z/
+bx .
+bz -
+bx ,
+bz +
+bz *
+bx )
+z(
+z'
+z&
+z%
+z$
+z#
+bz "
+bz !
+$end
+#25
+1H
+#50
+0H
+1G
+#75
+1H
+#100
+0H
+0G
+1F
+#125
+1H
+#150
+0H
+1G
+#175
+1H
+#200
+0H
+0G
+0F
+#225
+1H
+#250
+0H
+1G
+#275
+1H
+#300
+0N
+0O
+0P
+0Q
+b0 K
+b0 L
+b0 I
+b0 J
+0H
+0G
+1F
+#325
+1H
+#350
+0H
+1G
+#375
+1H
+#400
+0H
+0G
+0F
+#425
+1H
+#450
+0H
+1G
+#475
+1H
+#500
+1M
+0H
+0G
+1F
+#525
+1H
+#550
+0H
+1G
+#575
+1H
+#600
+0H
+0G
+0F
+#625
+1H
+#650
+0H
+1G
+#675
+1H
+#700
+1N
+1O
+1P
+1Q
+b11001100 L
+b11011101 K
+b11101110 J
+b11111111 I
+0H
+0G
+1F
+#725
+1H
+#750
+0H
+1G
+#775
+1H
+#800
+0H
+0G
+0F
+#825
+1H
+#850
+0H
+1G
+#875
+1H
+#900
+b10001000 L
+b10011001 K
+b10101010 J
+b10111011 I
+0H
+0G
+1F
+#925
+1H
+#950
+0H
+1G
+#975
+1H
+#1000
+0H
+0G
+0F
+#1025
+1H
+#1050
+0H
+1G
+#1075
+1H
+#1100
+0N
+0P
+0Q
+bx L
+b1110111 K
+bx J
+bx I
+0H
+0G
+1F
+#1125
+1H
+#1150
+0H
+1G
+#1175
+1H
+#1200
+0H
+0G
+0F
+#1225
+1H
+#1250
+0H
+1G
+#1275
+1H
+#1300
+0O
+bx K
+0H
+0G
+1F
+#1325
+1H
+#1350
+0H
+1G
+#1375
+1H
+#1400
+0H
+0G
+0F
+#1425
+1H
+#1450
+0H
+1G
+#1475
+1H
+#1500
+0H
+0G
+1F

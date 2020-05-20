@@ -1,7 +1,6 @@
-`include "Mux2a1_ochobits.v"
+
 module mux4a1_descp_condL1(
     //entradas
-    input clk_2f,
     input reset_L,
     input selectorL1,
     input valid0,
