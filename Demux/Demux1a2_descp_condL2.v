@@ -1,7 +1,6 @@
 `include "Demux1a2_ochobits.v"
-module demux2a1_descp_condL2(
+module demux1a2_descp_condL2(
      //entradas
-    input clk_4f,
     input reset_L,
     input selectorL2,
     input valid,

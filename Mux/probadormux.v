@@ -3,7 +3,6 @@ module probador_mux(
     output reg reset_L,
     output reg clk_2f,
     output reg clk_4f,
-    output reg clk,
     output reg valid0,
     output reg valid1,
     output reg valid2,
@@ -18,6 +17,7 @@ module probador_mux(
     input validout,
     input [7:0] dataout_mux      
     );
+    reg clk;
     initial begin
         $dumpfile("mux.vcd");
         $dumpvars;
