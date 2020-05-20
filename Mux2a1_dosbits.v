@@ -14,6 +14,8 @@ module mux2a1dosbits_descp_cond (
     reg [1:0] temp1, temp2;
     //etapa de selección, elegí la señal que va a pasar.
     always @ (*) begin
+        temp1 = 0;
+        temp2 = 0;
         if(selector == 1)
             temp1 = data_in1;
             validout = valid1;
@@ -26,14 +28,14 @@ module mux2a1dosbits_descp_cond (
         if(validout == 1)
             temp2 = temp1;
         else
-            temp2 = dataout_mux2a1dosbits;
+            temp2 = 2'bxx;
     end
     //etapa de reinicio, se encarga de poner un cero en la salida.
     always @ (*) begin
         if(reset_L == 0)
             dataout_mux2a1dosbits = 2'b0;
+            validout = 0;
         else
             dataout_mux2a1dosbits = temp2;
     end
-
 endmodule

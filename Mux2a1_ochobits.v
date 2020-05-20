@@ -1,5 +1,5 @@
 `include "Mux2a1_dosbits.v"
-module mux2a1cuatrobits_descp_cond(
+module mux2a1ochobits_descp_cond(
 
     input reset_L,
     input selector,

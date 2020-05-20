@@ -16,8 +16,8 @@ module mux4a1_descp_condL1(
     output wire validout0,
     output wire validout1,
     output wire [7:0] dataout0_muxL1,
-    output wire [7:0] dataout1_muxL1,
+    output wire [7:0] dataout1_muxL1
     );   
-    mux_descp_cond_mux2a1cuatrobits mux2a1_4bituno(reset_L,selectorL1,valid0,valid1,data_in0_muxL1,data_in1_muxL1,validout0,dataout0_muxL1);
-    mux_descp_cond_mux2a1cuatrobits mux2a1_4bitdos(reset_L,selectorL1,valid2,valid3,data_in2_muxL1,data_in3_muxL1,validout1,dataout1_muxL1);
+    mux2a1ochobits_descp_cond mux2a1_8bitunoL1(reset_L,selectorL1,valid0,valid1,data_in0_muxL1,data_in1_muxL1,validout0,dataout0_muxL1);
+    mux2a1ochobits_descp_cond mux2a1_8bitdosL1(reset_L,selectorL1,valid2,valid3,data_in2_muxL1,data_in3_muxL1,validout1,dataout1_muxL1);
 endmodule
