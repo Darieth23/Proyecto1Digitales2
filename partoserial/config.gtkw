@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Mon May 25 01:06:09 2020
+[*]
+[dumpfile] "/home/diego/Documents/ProyectoDII/partoserial/bancopruebas.vcd"
+[dumpfile_mtime] "Mon May 25 01:03:07 2020"
+[dumpfile_size] 14235
+[savefile] "/home/diego/Documents/ProyectoDII/partoserial/config.gtkw"
+[timestart] 0
+[size] 1855 991
+[pos] -1 -1
+*-14.511747 358000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[sst_width] 223
+[signals_width] 207
+[sst_expanded] 1
+[sst_vpaned_height] 192
+@28
+bancopruebas.mi_probador.clk_4f
+bancopruebas.mi_probador.clk_32f
+bancopruebas.mi_probador.reset
+bancopruebas.mi_probador.valid_in
+@22
+bancopruebas.mi_probador.data_in[7:0]
+bancopruebas.modul_cond.data2send[7:0]
+@28
+bancopruebas.mi_probador.data_out_conduc
+bancopruebas.mi_probador.data_out_estruct
+[pattern_trace] 1
+[pattern_trace] 0

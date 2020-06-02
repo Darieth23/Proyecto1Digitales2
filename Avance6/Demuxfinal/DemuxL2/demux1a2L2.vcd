@@ -1,0 +1,220 @@
+$date
+	Thu May 28 20:30:32 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module BUF $end
+$var wire 1 ! A $end
+$var wire 1 " Y $end
+$upscope $end
+$scope module DFF $end
+$var wire 1 # C $end
+$var wire 1 $ D $end
+$var reg 1 % Q $end
+$upscope $end
+$scope module DFFSR $end
+$var wire 1 & C $end
+$var wire 1 ' D $end
+$var wire 1 ( R $end
+$var wire 1 ) S $end
+$var reg 1 * Q $end
+$upscope $end
+$scope module NAND $end
+$var wire 1 + A $end
+$var wire 1 , B $end
+$var wire 1 - Y $end
+$upscope $end
+$scope module NOR $end
+$var wire 1 . A $end
+$var wire 1 / B $end
+$var wire 1 0 Y $end
+$upscope $end
+$scope module NOT $end
+$var wire 1 1 A $end
+$var wire 1 2 Y $end
+$upscope $end
+$scope module demux2a1_descp_condL2 $end
+$var wire 1 3 clk_2f $end
+$var wire 8 4 data_in0_demuxL2 [7:0] $end
+$var wire 1 5 reset_L $end
+$var wire 1 6 selectorL2 $end
+$var wire 1 7 valid $end
+$var wire 1 8 validout1 $end
+$var wire 1 9 validout0 $end
+$var wire 8 : dataout1_demuxL2 [7:0] $end
+$var wire 8 ; dataout0_demuxL2 [7:0] $end
+$scope module demux1a2_8bitunoL2 $end
+$var wire 8 < data_in [7:0] $end
+$var wire 1 5 reset_L $end
+$var wire 1 3 selector $end
+$var wire 1 7 valid $end
+$var wire 1 8 validout1 $end
+$var wire 1 9 validout0 $end
+$var wire 1 = temp1 $end
+$var wire 1 > temp0 $end
+$var wire 8 ? dataout_demux1a2dosbits1 [7:0] $end
+$var wire 8 @ dataout_demux1a2dosbits0 [7:0] $end
+$scope module demux1a2ochobits_dos $end
+$var wire 4 A data_in [3:0] $end
+$var wire 1 5 reset_L $end
+$var wire 1 3 selector $end
+$var wire 1 7 valid $end
+$var reg 4 B dataout_demux1a2dosbits0 [3:0] $end
+$var reg 4 C dataout_demux1a2dosbits1 [3:0] $end
+$var reg 4 D temp1 [3:0] $end
+$var reg 4 E temp2 [3:0] $end
+$var reg 1 > validout0 $end
+$var reg 1 = validout1 $end
+$upscope $end
+$scope module demux1a2ochobits_uno $end
+$var wire 4 F data_in [3:0] $end
+$var wire 1 5 reset_L $end
+$var wire 1 3 selector $end
+$var wire 1 7 valid $end
+$var reg 4 G dataout_demux1a2dosbits0 [3:0] $end
+$var reg 4 H dataout_demux1a2dosbits1 [3:0] $end
+$var reg 4 I temp1 [3:0] $end
+$var reg 4 J temp2 [3:0] $end
+$var reg 1 9 validout0 $end
+$var reg 1 8 validout1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module probadordemuxL2 $end
+$var wire 8 K dataout0_demuxL2 [7:0] $end
+$var wire 8 L dataout1_demuxL2 [7:0] $end
+$var wire 1 M validout0 $end
+$var wire 1 N validout1 $end
+$var reg 1 O clk $end
+$var reg 1 P clk_2f $end
+$var reg 1 Q clk_4f $end
+$var reg 8 R data_in0_demuxL2 [7:0] $end
+$var reg 1 S reset_L $end
+$var reg 1 T selectorL2 $end
+$var reg 1 U valid $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1U
+1T
+0S
+b0 R
+1Q
+1P
+0O
+zN
+zM
+bz L
+bz K
+b0 J
+bz I
+bx H
+b0 G
+bz F
+b0 E
+bz D
+bx C
+b0 B
+bz A
+b0 @
+bx ?
+z>
+x=
+bz <
+b0 ;
+bx :
+z9
+x8
+z7
+z6
+z5
+bz 4
+z3
+z2
+z1
+x0
+z/
+z.
+x-
+z,
+z+
+x*
+z)
+z(
+z'
+z&
+x%
+z$
+z#
+z"
+z!
+$end
+#750
+0Q
+#1500
+1S
+1Q
+0P
+#2250
+0Q
+#3000
+b10000 R
+0U
+1Q
+1P
+1O
+#3750
+0Q
+#4500
+b10010 R
+1U
+1Q
+0P
+#5250
+0Q
+#6000
+b1010 R
+1Q
+1P
+0O
+#6750
+0Q
+#7500
+b10100 R
+1Q
+0P
+#8250
+0Q
+#9000
+b11100 R
+0U
+1Q
+1P
+1O
+#9750
+0Q
+#10500
+1Q
+0P
+#11250
+0Q
+#12000
+1Q
+1P
+0O
+#12750
+0Q
+#13500
+1Q
+0P
+#14250
+0Q
+#15000
+1Q
+1P
+1O

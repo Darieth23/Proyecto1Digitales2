@@ -1,0 +1,16 @@
+
+read_verilog Mux2a1_descp_condL2.v
+
+hierarchy -check -top mux2to1_L2
+
+proc; opt; fsm; opt; memory; opt
+
+techmap; opt
+
+dfflibmap -liberty cmos_cells.lib
+
+abc -liberty cmos_cells.lib
+
+clean
+
+write_verilog muxEstructL2.v

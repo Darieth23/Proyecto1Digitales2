@@ -1,0 +1,479 @@
+$date
+	Mon Jun  1 16:28:10 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module BUF $end
+$var wire 1 ! A $end
+$var wire 1 " Y $end
+$upscope $end
+$scope module BancoPruebasDemuxL2 $end
+$var wire 1 # validout1 $end
+$var wire 1 $ validout0 $end
+$var wire 1 % valid $end
+$var wire 1 & reset_L $end
+$var wire 8 ' dataout1_demuxL2 [7:0] $end
+$var wire 8 ( dataout0_demuxL2 [7:0] $end
+$var wire 8 ) data_in0_demuxL2 [7:0] $end
+$var wire 1 * clk_4f $end
+$var wire 1 + clk_2f $end
+$var wire 1 , clk $end
+$scope module demuxL2 $end
+$var wire 1 # validout1 $end
+$var wire 1 $ validout0 $end
+$var wire 1 % valid $end
+$var wire 1 & reset_L $end
+$var wire 8 - dataout1_demuxL2 [7:0] $end
+$var wire 8 . dataout0_demuxL2 [7:0] $end
+$var wire 8 / data_in0_demuxL2 [7:0] $end
+$var wire 1 * clk_4f $end
+$scope module demux1a2_8bitunoL2 $end
+$var wire 1 # validout1 $end
+$var wire 1 $ validout0 $end
+$var wire 1 % valid $end
+$var wire 1 0 temp1 $end
+$var wire 1 1 temp0 $end
+$var wire 1 & reset_L $end
+$var wire 8 2 dataout_demux1a2dosbits1 [7:0] $end
+$var wire 8 3 dataout_demux1a2dosbits0 [7:0] $end
+$var wire 8 4 data_in [7:0] $end
+$var wire 1 * clk_4f $end
+$scope module demux1a2ochobits_dos $end
+$var wire 4 5 data_in [3:0] $end
+$var wire 1 % valid $end
+$var wire 1 & reset_L $end
+$var wire 1 * clk_4f $end
+$var reg 1 6 bandera $end
+$var reg 4 7 data_reg0 [3:0] $end
+$var reg 4 8 data_reg1 [3:0] $end
+$var reg 4 9 dataout_demux1a2cuatrobits0 [3:0] $end
+$var reg 4 : dataout_demux1a2cuatrobits1 [3:0] $end
+$var reg 1 ; selector $end
+$var reg 1 < valid0 $end
+$var reg 1 = valid1 $end
+$var reg 1 1 validout0 $end
+$var reg 1 0 validout1 $end
+$upscope $end
+$scope module demux1a2ochobits_uno $end
+$var wire 4 > data_in [3:0] $end
+$var wire 1 % valid $end
+$var wire 1 & reset_L $end
+$var wire 1 * clk_4f $end
+$var reg 1 ? bandera $end
+$var reg 4 @ data_reg0 [3:0] $end
+$var reg 4 A data_reg1 [3:0] $end
+$var reg 4 B dataout_demux1a2cuatrobits0 [3:0] $end
+$var reg 4 C dataout_demux1a2cuatrobits1 [3:0] $end
+$var reg 1 D selector $end
+$var reg 1 E valid0 $end
+$var reg 1 F valid1 $end
+$var reg 1 $ validout0 $end
+$var reg 1 # validout1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module prueba $end
+$var wire 8 G dataout0_demuxL2 [7:0] $end
+$var wire 8 H dataout1_demuxL2 [7:0] $end
+$var wire 1 $ validout0 $end
+$var wire 1 # validout1 $end
+$var reg 1 , clk $end
+$var reg 1 + clk_2f $end
+$var reg 1 * clk_4f $end
+$var reg 8 I data_in0_demuxL2 [7:0] $end
+$var reg 1 & reset_L $end
+$var reg 1 % valid $end
+$upscope $end
+$upscope $end
+$scope module DFF $end
+$var wire 1 J C $end
+$var wire 1 K D $end
+$var reg 1 L Q $end
+$upscope $end
+$scope module DFFSR $end
+$var wire 1 M C $end
+$var wire 1 N D $end
+$var wire 1 O R $end
+$var wire 1 P S $end
+$var reg 1 Q Q $end
+$upscope $end
+$scope module NAND $end
+$var wire 1 R A $end
+$var wire 1 S B $end
+$var wire 1 T Y $end
+$upscope $end
+$scope module NOR $end
+$var wire 1 U A $end
+$var wire 1 V B $end
+$var wire 1 W Y $end
+$upscope $end
+$scope module NOT $end
+$var wire 1 X A $end
+$var wire 1 Y Y $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+zY
+zX
+xW
+zV
+zU
+xT
+zS
+zR
+xQ
+zP
+zO
+zN
+zM
+xL
+zK
+zJ
+b0 I
+b0 H
+b0 G
+0F
+0E
+0D
+b0 C
+b0 B
+b0 A
+b0 @
+1?
+b0 >
+0=
+0<
+0;
+b0 :
+b0 9
+b0 8
+b0 7
+16
+b0 5
+b0 4
+b0 3
+b0 2
+01
+00
+b0 /
+b0 .
+b0 -
+0,
+1+
+1*
+b0 )
+b0 (
+b0 '
+0&
+1%
+0$
+0#
+z"
+z!
+$end
+#750
+0*
+#1500
+06
+11
+0?
+1$
+1&
+1*
+0+
+#2250
+0*
+#3000
+1#
+0?
+0$
+10
+b10000 '
+b10000 -
+b10000 2
+b10000 H
+b1 :
+06
+01
+b1 5
+1E
+1D
+1<
+1;
+b10000 )
+b10000 /
+b10000 4
+b10000 I
+1*
+1+
+1,
+#3750
+0*
+#4500
+b10 B
+b10 >
+11
+b10010 (
+b10010 .
+b10010 3
+b10010 G
+b1 9
+06
+00
+b10000 '
+b10000 -
+b10000 2
+b10000 H
+b1 :
+1$
+0?
+0#
+b10010 )
+b10010 /
+b10010 4
+b10010 I
+1=
+0<
+b1 8
+0;
+1F
+0E
+0D
+1*
+0+
+#5250
+0*
+#6000
+1#
+b1010 C
+0?
+0$
+b10 B
+10
+06
+01
+b1010 '
+b1010 -
+b1010 2
+b1010 H
+b0 :
+b10010 (
+b10010 .
+b10010 3
+b10010 G
+b1 9
+b0 5
+b1010 >
+0F
+1E
+b10 @
+1D
+0=
+1<
+b1 7
+1;
+b1010 )
+b1010 /
+b1010 4
+b1010 I
+1*
+1+
+0,
+#6750
+0*
+#7500
+b1 5
+b100 >
+11
+06
+00
+b1 9
+1$
+0?
+0#
+b1010 '
+b1010 -
+b1010 2
+b1010 H
+b1010 C
+b10100 (
+b10100 .
+b10100 3
+b10100 G
+b100 B
+b10100 )
+b10100 /
+b10100 4
+b10100 I
+1=
+0<
+b0 8
+0;
+1F
+0E
+b1010 A
+0D
+1*
+0+
+#8250
+0*
+#9000
+1#
+0?
+0$
+b1100 C
+b100 B
+10
+b11100 '
+b11100 -
+b11100 2
+b11100 H
+b1 :
+06
+01
+b10100 (
+b10100 .
+b10100 3
+b10100 G
+b1 9
+b1100 >
+0F
+1E
+b100 @
+1D
+0=
+1<
+1;
+b11100 )
+b11100 /
+b11100 4
+b11100 I
+1*
+1+
+1,
+#9750
+0*
+#10500
+11
+06
+00
+b1 :
+b1 9
+1$
+0?
+0#
+b11100 '
+b11100 -
+b11100 2
+b11100 H
+b1100 C
+b11100 (
+b11100 .
+b11100 3
+b11100 G
+b1100 B
+1=
+0<
+b1 8
+0;
+1F
+0E
+b1100 A
+0D
+1*
+0+
+#11250
+0*
+#12000
+1#
+0?
+0$
+b1100 C
+b1100 B
+10
+06
+01
+b11100 '
+b11100 -
+b11100 2
+b11100 H
+b1 :
+b11100 (
+b11100 .
+b11100 3
+b11100 G
+b1 9
+0F
+1E
+b1100 @
+1D
+0=
+1<
+1;
+1*
+1+
+0,
+#12750
+0*
+#13500
+11
+06
+00
+b1 :
+b1 9
+1$
+0?
+0#
+b11100 '
+b11100 -
+b11100 2
+b11100 H
+b1100 C
+b11100 (
+b11100 .
+b11100 3
+b11100 G
+b1100 B
+1=
+0<
+0;
+1F
+0E
+0D
+1*
+0+
+#14250
+0*
+#15000
+1#
+0?
+0$
+b1100 C
+b1100 B
+10
+06
+01
+b11100 '
+b11100 -
+b11100 2
+b11100 H
+b1 :
+b11100 (
+b11100 .
+b11100 3
+b11100 G
+b1 9
+0F
+1E
+1D
+0=
+1<
+1;
+1*
+1+
+1,

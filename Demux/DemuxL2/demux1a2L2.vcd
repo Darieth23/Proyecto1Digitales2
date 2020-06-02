@@ -1,0 +1,273 @@
+$date
+	Wed May 27 12:26:51 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module BancoPruebasDemuxL2 $end
+$var wire 1 ! validout1 $end
+$var wire 1 " validout0 $end
+$var wire 1 # valid $end
+$var wire 1 $ selectorL2 $end
+$var wire 1 % reset_L $end
+$var wire 8 & dataout1_demuxL2 [7:0] $end
+$var wire 8 ' dataout0_demuxL2 [7:0] $end
+$var wire 8 ( data_in0_demuxL2 [7:0] $end
+$var wire 1 ) clk_4f $end
+$var wire 1 * clk_2f $end
+$var wire 1 + clk $end
+$scope module demuxL2 $end
+$var wire 1 ! validout1 $end
+$var wire 1 " validout0 $end
+$var wire 1 # valid $end
+$var wire 1 $ selectorL2 $end
+$var wire 1 % reset_L $end
+$var wire 8 , dataout1_demuxL2 [7:0] $end
+$var wire 8 - dataout0_demuxL2 [7:0] $end
+$var wire 8 . data_in0_demuxL2 [7:0] $end
+$var wire 1 * clk_2f $end
+$scope module demux1a2_8bitunoL2 $end
+$var wire 1 ! validout1 $end
+$var wire 1 " validout0 $end
+$var wire 1 # valid $end
+$var wire 1 / temp1 $end
+$var wire 1 0 temp0 $end
+$var wire 1 * selector $end
+$var wire 1 % reset_L $end
+$var wire 8 1 dataout_demux1a2dosbits1 [7:0] $end
+$var wire 8 2 dataout_demux1a2dosbits0 [7:0] $end
+$var wire 8 3 data_in [7:0] $end
+$scope module demux1a2ochobits_dos $end
+$var wire 4 4 data_in [3:0] $end
+$var wire 1 # valid $end
+$var wire 1 * selector $end
+$var wire 1 % reset_L $end
+$var reg 4 5 dataout_demux1a2dosbits0 [3:0] $end
+$var reg 4 6 dataout_demux1a2dosbits1 [3:0] $end
+$var reg 4 7 temp1 [3:0] $end
+$var reg 4 8 temp2 [3:0] $end
+$var reg 1 0 validout0 $end
+$var reg 1 / validout1 $end
+$upscope $end
+$scope module demux1a2ochobits_uno $end
+$var wire 4 9 data_in [3:0] $end
+$var wire 1 # valid $end
+$var wire 1 * selector $end
+$var wire 1 % reset_L $end
+$var reg 4 : dataout_demux1a2dosbits0 [3:0] $end
+$var reg 4 ; dataout_demux1a2dosbits1 [3:0] $end
+$var reg 4 < temp1 [3:0] $end
+$var reg 4 = temp2 [3:0] $end
+$var reg 1 " validout0 $end
+$var reg 1 ! validout1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module prueba $end
+$var wire 8 > dataout0_demuxL2 [7:0] $end
+$var wire 8 ? dataout1_demuxL2 [7:0] $end
+$var wire 1 " validout0 $end
+$var wire 1 ! validout1 $end
+$var reg 1 + clk $end
+$var reg 1 * clk_2f $end
+$var reg 1 ) clk_4f $end
+$var reg 8 @ data_in0_demuxL2 [7:0] $end
+$var reg 1 % reset_L $end
+$var reg 1 $ selectorL2 $end
+$var reg 1 # valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+00
+1/
+b0 .
+b0 -
+b0 ,
+0+
+1*
+1)
+b0 (
+b0 '
+b0 &
+0%
+1$
+1#
+0"
+1!
+$end
+#750
+0)
+#1500
+1%
+0/
+10
+0!
+1"
+1)
+0*
+#2250
+0)
+#3000
+b1 7
+b1 4
+b10000 (
+b10000 .
+b10000 3
+b10000 @
+0#
+0/
+0!
+1)
+1*
+1+
+#3750
+0)
+#4500
+b10 :
+b10 =
+b10 <
+b10010 '
+b10010 -
+b10010 2
+b10010 >
+b1 5
+b10 9
+b1 8
+b10010 (
+b10010 .
+b10010 3
+b10010 @
+1#
+10
+b1 7
+1"
+1)
+0*
+#5250
+0)
+#6000
+b0 4
+b1010 9
+b1010 (
+b1010 .
+b1010 3
+b1010 @
+b0 6
+b1010 &
+b1010 ,
+b1010 1
+b1010 ?
+b1010 ;
+1/
+b0 8
+b0 7
+1!
+b1010 =
+b1010 <
+1)
+1*
+0+
+#6750
+0)
+#7500
+b1 8
+b1 7
+b1 4
+b100 9
+b10100 (
+b10100 .
+b10100 3
+b10100 @
+b1 5
+b10100 '
+b10100 -
+b10100 2
+b10100 >
+b100 :
+b100 =
+b100 <
+1)
+0*
+#8250
+0)
+#9000
+b1100 9
+0/
+0!
+b11100 (
+b11100 .
+b11100 3
+b11100 @
+0#
+b0 6
+b0 8
+b1 7
+b0 &
+b0 ,
+b0 1
+b0 ?
+b0 ;
+b0 =
+b1100 <
+1)
+1*
+1+
+#9750
+0)
+#10500
+b0 5
+00
+b1 7
+b0 '
+b0 -
+b0 2
+b0 >
+b0 :
+0"
+b1100 <
+1)
+0*
+#11250
+0)
+#12000
+b1 7
+b1100 <
+1)
+1*
+0+
+#12750
+0)
+#13500
+b1 7
+b1100 <
+1)
+0*
+#14250
+0)
+#15000
+b1 7
+b1100 <
+1)
+1*
+1+
