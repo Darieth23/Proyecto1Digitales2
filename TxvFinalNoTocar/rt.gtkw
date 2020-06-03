@@ -1,0 +1,33 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Tue Jun  2 07:45:02 2020
+[*]
+[dumpfile] "/home/diego/Documents/ProyectoDII/Tx/bancopruebas.vcd"
+[dumpfile_mtime] "Tue Jun  2 07:41:27 2020"
+[dumpfile_size] 30924
+[savefile] "/home/diego/Documents/ProyectoDII/Tx/rt.gtkw"
+[timestart] 0
+[size] 1855 1056
+[pos] -723 -1
+*-17.512865 462000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[treeopen] bancopruebas.phy_cond.
+[sst_width] 223
+[signals_width] 176
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+bancopruebas.phy_cond.rst
+bancopruebas.phy_cond.reloj_4f
+bancopruebas.phy_cond.reloj_2f
+@29
+bancopruebas.phy_cond.selector_2f
+@22
+bancopruebas.phy_cond.outf0[7:0]
+bancopruebas.phy_cond.outf1[7:0]
+bancopruebas.phy_cond.data_out1[7:0]
+bancopruebas.phy_cond.in2[7:0]
+bancopruebas.phy_cond.in3[7:0]
+bancopruebas.phy_cond.data_out2[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
