@@ -1,0 +1,74 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Sun Jun  7 04:35:19 2020
+[*]
+[dumpfile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/bancopruebas.vcd"
+[dumpfile_mtime] "Sun Jun  7 04:20:47 2020"
+[dumpfile_size] 134734
+[savefile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/PhyBonito.gtkw"
+[timestart] 0
+[size] 1855 991
+[pos] -723 -1
+*-18.235098 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[treeopen] bancopruebas.phy_cond.
+[treeopen] bancopruebas.phy_cond.modrx.
+[sst_width] 223
+[signals_width] 192
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@200
+-Clks
+@28
+bancopruebas.clk_32f
+@29
+bancopruebas.phy_cond.modrx.clock.reloj_4f
+@28
+bancopruebas.phy_cond.modrx.clock.reloj_2f
+bancopruebas.phy_cond.modrx.clock.reloj_f
+@200
+-Resets
+@28
+bancopruebas.reset_L
+bancopruebas.rst
+@200
+-IN/OUT 0
+@22
+bancopruebas.in0[7:0]
+bancopruebas.outp0[7:0]
+@200
+-
+-IN/OUT 1
+@22
+bancopruebas.in1[7:0]
+bancopruebas.outp1[7:0]
+@200
+-
+-IN/OUT 2
+@22
+bancopruebas.in2[7:0]
+bancopruebas.outp2[7:0]
+@200
+-
+-IN/OUT 3
+@22
+bancopruebas.in3[7:0]
+bancopruebas.outp3[7:0]
+@200
+-
+-Valids de salida
+@28
+bancopruebas.val_out0p
+bancopruebas.val_out1p
+bancopruebas.val_out2p
+bancopruebas.val_out3p
+@200
+-
+-Valids de entrada
+@28
+bancopruebas.valid_in0
+bancopruebas.valid_in1
+bancopruebas.valid_in2
+bancopruebas.valid_in3
+[pattern_trace] 1
+[pattern_trace] 0

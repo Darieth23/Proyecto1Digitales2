@@ -1,0 +1,120 @@
+`include "circulacion.v"
+`include "Mux2a1_descp_condL2.v"
+`include "Mux4a2_descp_condL1.v"
+`include "partoserial.v"
+`include "serialtopar.v"
+`include "clks.v"
+//`include "señalesIDLE.v"
+
+module phy_tx(
+	 
+    //relojes
+    input clk_32f,
+    input rst,
+    input selector_2f,
+    //entradas
+    input [7:0] IDLE,
+
+	//valids entradas
+    input valid_in0,
+    input valid_in1,
+    input valid_in2,
+    input valid_in3,
+
+	//entradas de datos
+    input [7:0] in0,
+    input [7:0] in1,
+    input [7:0] in2,
+    input [7:0] in3,
+    output wire salida_tx
+);
+
+reg[7:0]        data_reg_0;
+reg[7:0]        data_reg_1;
+reg[7:0]        data_reg_2;
+reg[7:0]        data_reg_3;
+reg             valid_reg_0;
+reg             valid_reg_1;
+reg             valid_reg_2;
+reg             valid_reg_3;
+
+//Wires
+/*AUTOREG*/
+/*AUTOWIRE*/
+wire out;
+
+
+wire reloj_4f;
+wire reloj_2f;
+wire reloj_f;
+
+//Flop de probador a recirculación
+always @(posedge reloj_f) begin
+    if(~rst) begin
+        data_reg_0 <= outp0;
+        data_reg_1 <= outp1;
+        data_reg_2 <= outp2;
+        data_reg_3 <= outp3;
+        valid_reg_0 <= valid_outp0;
+        valid_reg_1 <= valid_outp1;
+        valid_reg_2 <= valid_outp2;
+        valid_reg_3 <= valid_outp3;
+    end else begin
+        data_reg_0 <= in0;
+        data_reg_1 <= in1;
+        data_reg_2 <= in2;
+        data_reg_3 <= in3;
+        valid_reg_0 <= valid_in0;
+        valid_reg_1 <= valid_in1;
+        valid_reg_2 <= valid_in2;
+        valid_reg_3 <= valid_in3;
+    end
+end
+
+
+
+//flop de L2 a Partoserial
+/*always @(posedge clk_32f) begin
+    if(~rst) begin
+        salida_tx <= 0;
+    end else begin
+        salida_tx <= out;
+    end
+end*/
+
+
+//Instancia clks
+
+gen_clk reloj(/*AUTOINST*/);
+
+
+//Instancia recirculación
+
+
+ circulacion recirculacion(/*AUTOINST*/);
+
+
+//Flops 8 bits+valid x4 @f
+
+//Instancia mux L1
+
+ mux_4to1L1 muxL1(/*autoinst*/);
+
+//Flops 8 bits+valid x2 @2f
+
+//Instancia mux L2
+
+   mux2to1_L2 muxL2(/*autoinst*/);
+
+//Paralelo a Serial
+
+partoserial par2ser(/*AUTOINST*/);
+
+//Señales de idle
+
+  serialtopar crysal(/*AUTOINST*/);
+
+
+
+endmodule
+

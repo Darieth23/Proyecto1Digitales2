@@ -1,0 +1,94 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Jun 10 06:46:56 2020
+[*]
+[dumpfile] "(null)"
+[savefile] "/home/diego/Downloads/RxV3/Rxprsentacion.gtkw"
+[timestart] 0
+[size] 1855 1056
+[pos] -731 -1
+*-17.783535 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[treeopen] bancopruebas.phy_Estrx.
+[sst_width] 223
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@200
+-Módulo Rx
+-S/P
+-Cond
+@28
+bancopruebas.phy_condrx.mod1.data_in
+@22
+bancopruebas.phy_condrx.mod1.data_out[7:0]
+@200
+-Struct
+@28
+bancopruebas.phy_Estrx.mod1.data_in
+@22
+bancopruebas.phy_Estrx.mod1.data_out[7:0]
+@200
+-
+-P/S
+-Cond
+@28
+bancopruebas.phy_Estrx.mod2.active
+bancopruebas.phy_Estrx.mod2.IDL
+@200
+-Struct
+@28
+bancopruebas.phy_Estrx.mod2.active
+bancopruebas.phy_Estrx.mod2.IDL
+@200
+-
+-Demux L2
+-Cond
+@22
+bancopruebas.phy_Estrx.mod3.data_in0_demuxL2[7:0]
+bancopruebas.phy_Estrx.mod3.dataout0_demuxL2[7:0]
+bancopruebas.phy_Estrx.mod3.dataout1_demuxL2[7:0]
+@200
+-Struct
+@22
+bancopruebas.phy_Estrx.mod3.data_in0_demuxL2[7:0]
+bancopruebas.phy_Estrx.mod3.dataout0_demuxL2[7:0]
+bancopruebas.phy_Estrx.mod3.dataout1_demuxL2[7:0]
+@200
+-
+-Demux L1
+-Cond
+@22
+bancopruebas.phy_Estrx.mod4.data_in0_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.data_in1_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout0_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout1_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout2_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout3_demuxL1[7:0]
+bancopruebas.phy_condrx.mod2.data2send[7:0]
+@28
+bancopruebas.phy_Estrx.mod4.valid1
+bancopruebas.phy_Estrx.mod4.valid2
+bancopruebas.phy_Estrx.mod4.validout0
+bancopruebas.phy_Estrx.mod4.validout1
+bancopruebas.phy_Estrx.mod4.validout2
+@29
+bancopruebas.phy_Estrx.mod4.validout3
+@200
+-Struct
+@22
+bancopruebas.phy_Estrx.mod4.data_in0_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.data_in1_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout0_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout1_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout2_demuxL1[7:0]
+bancopruebas.phy_Estrx.mod4.dataout3_demuxL1[7:0]
+@28
+bancopruebas.phy_Estrx.mod4.valid1
+bancopruebas.phy_Estrx.mod4.valid2
+bancopruebas.phy_Estrx.mod4.validout0
+bancopruebas.phy_Estrx.mod4.validout1
+bancopruebas.phy_Estrx.mod4.validout2
+bancopruebas.phy_Estrx.mod4.validout3
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,142 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Jun 10 05:34:56 2020
+[*]
+[dumpfile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/bancopruebas.vcd"
+[dumpfile_mtime] "Wed Jun 10 05:07:40 2020"
+[dumpfile_size] 139856
+[savefile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/paraPresentacionPhy.gtkw"
+[timestart] 225000
+[size] 1855 1056
+[pos] -1 -1
+*-18.188177 145000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.phy.
+[treeopen] bancopruebas.phy.modrx.
+[treeopen] bancopruebas.phy.modtx.
+[sst_width] 223
+[signals_width] 249
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@200
+-Reloj
+@28
+bancopruebas.phy.modrx.clock.reloj_32f
+bancopruebas.phy.modrx.clock.reloj_4f
+bancopruebas.phy.modrx.clock.reloj_2f
+bancopruebas.phy.modrx.clock.reloj_f
+bancopruebas.phy.modrx.clock.rst
+bancopruebas.phy.reset_L
+@200
+-Modulo Tx
+-Entradas recirculación
+@22
+bancopruebas.phy.modtx.recirculacion.in0[7:0]
+bancopruebas.phy.modtx.recirculacion.in1[7:0]
+bancopruebas.phy.modtx.recirculacion.in2[7:0]
+bancopruebas.phy.modtx.recirculacion.in3[7:0]
+@28
+bancopruebas.phy.modtx.recirculacion.IDLE
+@200
+-Salidas recirculación
+-Salida al circuito
+@22
+bancopruebas.phy.modtx.recirculacion.outf0[7:0]
+bancopruebas.phy.modtx.recirculacion.outf1[7:0]
+bancopruebas.phy.modtx.recirculacion.outf2[7:0]
+bancopruebas.phy.modtx.recirculacion.outf3[7:0]
+@200
+-Salidas a probador
+@22
+bancopruebas.phy.modtx.recirculacion.outp0[7:0]
+bancopruebas.phy.modtx.recirculacion.outp1[7:0]
+bancopruebas.phy.modtx.recirculacion.outp2[7:0]
+bancopruebas.phy.modtx.recirculacion.outp3[7:0]
+@200
+-
+-Entradas mux L1
+@22
+bancopruebas.phy.modtx.muxL1.in0[7:0]
+bancopruebas.phy.modtx.muxL1.in2[7:0]
+bancopruebas.phy.modtx.muxL1.in1[7:0]
+bancopruebas.phy.modtx.muxL1.in3[7:0]
+@200
+-Salidas mux L1
+@22
+bancopruebas.phy.modtx.muxL1.data_out1[7:0]
+bancopruebas.phy.modtx.muxL1.data_out2[7:0]
+@200
+-
+-Entrada mux L2
+@22
+bancopruebas.phy.modtx.muxL2.in1_L2[7:0]
+bancopruebas.phy.modtx.muxL2.in0_L2[7:0]
+@200
+-Salida mux L2
+@22
+bancopruebas.phy.modtx.muxL2.data_out_L2[7:0]
+@200
+-
+-Entradas P/S
+@22
+bancopruebas.phy.modtx.par2ser.data_in[7:0]
+bancopruebas.phy.modtx.par2ser.data2send[7:0]
+@200
+-Salida de P/S
+@28
+bancopruebas.phy.modtx.par2ser.data_out_P2S
+@200
+-
+-Módulo Rx
+-Entrada P/S
+@28
+bancopruebas.phy.modrx.mod1.data_in
+@200
+-Salida P/S
+@22
+bancopruebas.phy.modrx.mod1.data_out[7:0]
+@28
+bancopruebas.phy.modrx.mod1.valid_out
+@200
+-
+-Entrada S/P Rx
+@28
+bancopruebas.phy.modrx.mod2.IDL
+bancopruebas.phy.modrx.mod2.active
+@22
+bancopruebas.phy.modrx.mod2.data2send[7:0]
+@200
+-
+-Entrada Demux L2
+@22
+bancopruebas.phy.modrx.mod3.data_in0_demuxL2[7:0]
+@200
+-Salida Demux L2
+@22
+bancopruebas.phy.modrx.mod3.dataout0_demuxL2[7:0]
+bancopruebas.phy.modrx.mod3.dataout1_demuxL2[7:0]
+@200
+-
+-Entrada Demux L1
+@22
+bancopruebas.phy.modrx.mod4.data_in0_demuxL1[7:0]
+bancopruebas.phy.modrx.mod4.data_in1_demuxL1[7:0]
+@200
+-Salida Demux L1
+@22
+bancopruebas.phy.modrx.mod4.dataout0_demuxL1[7:0]
+bancopruebas.phy.modrx.mod4.dataout1_demuxL1[7:0]
+bancopruebas.phy.modrx.mod4.dataout2_demuxL1[7:0]
+bancopruebas.phy.modrx.mod4.dataout3_demuxL1[7:0]
+@200
+-
+-Salidas Demux L1
+-Ordenadas
+@22
+bancopruebas.phy.outp0[7:0]
+bancopruebas.phy.outp1[7:0]
+bancopruebas.phy.outp2[7:0]
+bancopruebas.phy.outp3[7:0]
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

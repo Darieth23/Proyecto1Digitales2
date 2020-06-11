@@ -1,0 +1,66 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Sun Jun  7 04:41:58 2020
+[*]
+[dumpfile] "/home/diego/Downloads/PresentacionCasiFInalV2/TxvFinalNoTocar/bancopruebas.vcd"
+[dumpfile_mtime] "Wed Jun  3 06:18:44 2020"
+[dumpfile_size] 386446
+[savefile] "/home/diego/Downloads/PresentacionCasiFInalV2/TxvFinalNoTocar/Txbonito.gtkw"
+[timestart] 0
+[size] 1855 991
+[pos] -723 -1
+*-16.992380 951100 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[treeopen] bancopruebas.phy_cond.
+[sst_width] 223
+[signals_width] 276
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@28
+bancopruebas.clk_32f
+bancopruebas.rst
+@200
+-IDLE define hacia
+-donde van las entradas
+@28
+bancopruebas.phy_cond.crysal.IDLE_out
+@200
+-
+-Salidas hacia recirculacion
+@22
+bancopruebas.phy_cond.recirculacion.outf0[7:0]
+bancopruebas.phy_cond.recirculacion.outf1[7:0]
+bancopruebas.phy_cond.recirculacion.outf2[7:0]
+bancopruebas.phy_cond.recirculacion.outf3[7:0]
+@200
+-
+-Salidas al probador
+@22
+bancopruebas.phy_cond.recirculacion.outp0[7:0]
+bancopruebas.phy_cond.recirculacion.outp1[7:0]
+bancopruebas.phy_cond.recirculacion.outp2[7:0]
+bancopruebas.phy_cond.recirculacion.outp3[7:0]
+@200
+-Señales de entrada
+@22
+bancopruebas.in0[7:0]
+bancopruebas.in1[7:0]
+bancopruebas.in2[7:0]
+bancopruebas.in3[7:0]
+@200
+-
+-
+-Valids de entrada
+@28
+bancopruebas.valid_in0
+bancopruebas.valid_in1
+bancopruebas.valid_in2
+bancopruebas.valid_in3
+@200
+-
+-Salidas hacia el Tx
+@28
+bancopruebas.salida_tx
+bancopruebas.salida_txEst
+[pattern_trace] 1
+[pattern_trace] 0

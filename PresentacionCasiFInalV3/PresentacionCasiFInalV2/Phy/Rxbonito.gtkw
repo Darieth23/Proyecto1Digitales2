@@ -1,0 +1,72 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Sun Jun  7 04:54:36 2020
+[*]
+[dumpfile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/bancopruebas.vcd"
+[dumpfile_mtime] "Sun Jun  7 04:20:47 2020"
+[dumpfile_size] 134734
+[savefile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/Rxbonito.gtkw"
+[timestart] 0
+[size] 1855 991
+[pos] -723 -1
+*-18.251083 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[treeopen] bancopruebas.phy_cond.
+[sst_width] 223
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@200
+-INs a Tx
+@22
+bancopruebas.phy_cond.in0[7:0]
+bancopruebas.phy_cond.in1[7:0]
+bancopruebas.phy_cond.in2[7:0]
+bancopruebas.phy_cond.in3[7:0]
+@200
+-De Tx a Rx
+@28
+bancopruebas.phy_cond.modrx.mod1.data_in
+bancopruebas.phy_cond.modrx.mod1.valid_out
+@200
+-Mod2
+-Par/Ser Rx
+@28
+bancopruebas.phy_cond.modrx.mod2.IDL
+@22
+bancopruebas.phy_cond.modrx.mod2.data2send[7:0]
+@28
+bancopruebas.phy_cond.modrx.mod2.active
+@200
+-Mod3
+-Demux L2
+@22
+bancopruebas.phy_cond.modrx.mod3.data_in0_demuxL2[7:0]
+bancopruebas.phy_cond.modrx.mod3.dataout0_demuxL2[7:0]
+bancopruebas.phy_cond.modrx.mod3.dataout1_demuxL2[7:0]
+@28
+bancopruebas.phy_cond.modrx.mod3.valid
+bancopruebas.phy_cond.modrx.mod3.validout0
+bancopruebas.phy_cond.modrx.mod3.validout1
+@200
+-Mod4
+-Demux L1
+-OUT hacia probador
+@22
+bancopruebas.phy_cond.modrx.out0[7:0]
+bancopruebas.phy_cond.modrx.out1[7:0]
+bancopruebas.phy_cond.modrx.out2[7:0]
+bancopruebas.phy_cond.modrx.out3[7:0]
+@200
+-Valids hacia el probador
+@28
+bancopruebas.phy_cond.modrx.val_out0
+bancopruebas.phy_cond.modrx.val_out1
+bancopruebas.phy_cond.modrx.val_out2
+bancopruebas.phy_cond.modrx.val_out3
+@200
+-Nuevamente hacia Tx
+@28
+bancopruebas.phy_cond.modrx.salida_rx
+[pattern_trace] 1
+[pattern_trace] 0

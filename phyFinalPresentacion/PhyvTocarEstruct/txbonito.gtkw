@@ -1,0 +1,82 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Sun Jun  7 06:00:30 2020
+[*]
+[dumpfile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/bancopruebas.vcd"
+[dumpfile_mtime] "Sun Jun  7 04:20:47 2020"
+[dumpfile_size] 134734
+[savefile] "/home/diego/Downloads/PresentacionCasiFInalV2/Phy/txbonito.gtkw"
+[timestart] 0
+[size] 1855 991
+[pos] -723 -1
+*-18.188177 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[treeopen] bancopruebas.phy_cond.
+[treeopen] bancopruebas.phy_cond.modtx.
+[sst_width] 223
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@200
+-INs del circuito
+@22
+bancopruebas.phy_cond.modtx.in0[7:0]
+bancopruebas.phy_cond.modtx.in1[7:0]
+bancopruebas.phy_cond.modtx.in2[7:0]
+bancopruebas.phy_cond.modtx.in3[7:0]
+@200
+-Valids entrada
+@28
+bancopruebas.phy_cond.modtx.muxL1.valid_bit0
+bancopruebas.phy_cond.modtx.muxL1.valid_bit1
+bancopruebas.phy_cond.modtx.muxL1.valid_bit2
+bancopruebas.phy_cond.modtx.muxL1.valid_bit3
+@200
+-Recirculación
+@22
+bancopruebas.phy_cond.modtx.recirculacion.outf0[7:0]
+bancopruebas.phy_cond.modtx.recirculacion.outf1[7:0]
+bancopruebas.phy_cond.modtx.recirculacion.outf2[7:0]
+bancopruebas.phy_cond.modtx.recirculacion.outf3[7:0]
+bancopruebas.phy_cond.modtx.recirculacion.outp0[7:0]
+bancopruebas.phy_cond.modtx.recirculacion.outp1[7:0]
+bancopruebas.phy_cond.modtx.recirculacion.outp2[7:0]
+bancopruebas.phy_cond.modtx.recirculacion.outp3[7:0]
+@28
+bancopruebas.phy_cond.modtx.recirculacion.valid_outf0
+bancopruebas.phy_cond.modtx.recirculacion.valid_outf1
+bancopruebas.phy_cond.modtx.recirculacion.valid_outf2
+bancopruebas.phy_cond.modtx.recirculacion.valid_outf3
+bancopruebas.phy_cond.modtx.recirculacion.valid_outp0
+bancopruebas.phy_cond.modtx.recirculacion.valid_outp1
+bancopruebas.phy_cond.modtx.recirculacion.valid_outp2
+bancopruebas.phy_cond.modtx.recirculacion.valid_outp3
+@200
+-Datos de mux L1
+@22
+bancopruebas.phy_cond.modtx.muxL1.data_out1[7:0]
+bancopruebas.phy_cond.modtx.muxL1.data_out2[7:0]
+@28
+bancopruebas.phy_cond.modtx.muxL1.valid_bit_out1
+bancopruebas.phy_cond.modtx.muxL1.valid_bit_out2
+@200
+-Datos de L2
+@22
+bancopruebas.phy_cond.modtx.muxL2.in0_L2[7:0]
+bancopruebas.phy_cond.modtx.muxL2.in1_L2[7:0]
+bancopruebas.phy_cond.modtx.muxL2.data_out_L2[7:0]
+@28
+bancopruebas.phy_cond.modtx.muxL2.valid_bit_L2
+@200
+-Par/Ser
+@22
+bancopruebas.phy_cond.modtx.par2ser.data2send[7:0]
+bancopruebas.phy_cond.modtx.par2ser.data_in[7:0]
+@200
+-Hacia Rx
+@28
+bancopruebas.phy_cond.modtx.par2ser.data_out_P2S
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

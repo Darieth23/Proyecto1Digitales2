@@ -1,5 +1,5 @@
 $date
-	Tue Jun  2 21:04:31 2020
+	Wed Jun  3 01:18:51 2020
 $end
 $version
 	Icarus Verilog
@@ -98,6 +98,7 @@ $var wire 1 3 validout0 $end
 $var wire 1 ' reset_L $end
 $var wire 8 U dataout1_demuxL2 [7:0] $end
 $var wire 8 V dataout0_demuxL2 [7:0] $end
+$var wire 1 - clk_32f $end
 $scope module demux1a2_8bitunoL2 $end
 $var wire 1 6 clk_4f $end
 $var wire 8 W data_in [7:0] $end
@@ -109,11 +110,13 @@ $var wire 1 Y temp0 $end
 $var wire 1 ' reset_L $end
 $var wire 8 Z dataout_demux1a2dosbits1 [7:0] $end
 $var wire 8 [ dataout_demux1a2dosbits0 [7:0] $end
+$var wire 1 - clk_32f $end
 $scope module demux1a2ochobits_dos $end
 $var wire 1 6 clk_4f $end
 $var wire 4 \ data_in [3:0] $end
 $var wire 1 H valid $end
 $var wire 1 ' reset_L $end
+$var wire 1 - clk_32f $end
 $var reg 1 ] bandera $end
 $var reg 4 ^ data_reg0 [3:0] $end
 $var reg 4 _ data_reg1 [3:0] $end
@@ -130,6 +133,7 @@ $var wire 1 6 clk_4f $end
 $var wire 4 e data_in [3:0] $end
 $var wire 1 H valid $end
 $var wire 1 ' reset_L $end
+$var wire 1 - clk_32f $end
 $var reg 1 f bandera $end
 $var reg 4 g data_reg0 [3:0] $end
 $var reg 4 h data_reg1 [3:0] $end
@@ -158,6 +162,7 @@ $var wire 8 p dataout3_demuxL1 [7:0] $end
 $var wire 8 q dataout2_demuxL1 [7:0] $end
 $var wire 8 r dataout1_demuxL1 [7:0] $end
 $var wire 8 s dataout0_demuxL1 [7:0] $end
+$var wire 1 - clk_32f $end
 $scope module demux1a2_8bitdosL2 $end
 $var wire 1 7 clk_2f $end
 $var wire 8 t data_in [7:0] $end
@@ -169,11 +174,13 @@ $var wire 1 v temp0 $end
 $var wire 1 ' reset_L $end
 $var wire 8 w dataout_demux1a2dosbits1 [7:0] $end
 $var wire 8 x dataout_demux1a2dosbits0 [7:0] $end
+$var wire 1 - clk_32f $end
 $scope module demux1a2ochobits_dos $end
 $var wire 1 7 clk_2f $end
 $var wire 4 y data_in [3:0] $end
 $var wire 1 G valid $end
 $var wire 1 ' reset_L $end
+$var wire 1 - clk_32f $end
 $var reg 1 z bandera $end
 $var reg 4 { data_reg0 [3:0] $end
 $var reg 4 | data_reg1 [3:0] $end
@@ -190,6 +197,7 @@ $var wire 1 7 clk_2f $end
 $var wire 4 $" data_in [3:0] $end
 $var wire 1 G valid $end
 $var wire 1 ' reset_L $end
+$var wire 1 - clk_32f $end
 $var reg 1 %" bandera $end
 $var reg 4 &" data_reg0 [3:0] $end
 $var reg 4 '" data_reg1 [3:0] $end
@@ -213,11 +221,13 @@ $var wire 1 /" temp0 $end
 $var wire 1 ' reset_L $end
 $var wire 8 0" dataout_demux1a2dosbits1 [7:0] $end
 $var wire 8 1" dataout_demux1a2dosbits0 [7:0] $end
+$var wire 1 - clk_32f $end
 $scope module demux1a2ochobits_dos $end
 $var wire 1 7 clk_2f $end
 $var wire 4 2" data_in [3:0] $end
 $var wire 1 F valid $end
 $var wire 1 ' reset_L $end
+$var wire 1 - clk_32f $end
 $var reg 1 3" bandera $end
 $var reg 4 4" data_reg0 [3:0] $end
 $var reg 4 5" data_reg1 [3:0] $end
@@ -234,6 +244,7 @@ $var wire 1 7 clk_2f $end
 $var wire 4 ;" data_in [3:0] $end
 $var wire 1 F valid $end
 $var wire 1 ' reset_L $end
+$var wire 1 - clk_32f $end
 $var reg 1 <" bandera $end
 $var reg 4 =" data_reg0 [3:0] $end
 $var reg 4 >" data_reg1 [3:0] $end
@@ -273,7 +284,7 @@ bx E"
 bx D"
 xC"
 xB"
-0A"
+xA"
 b0 @"
 b0 ?"
 bx >"
@@ -282,7 +293,7 @@ bx ="
 bx ;"
 x:"
 x9"
-08"
+x8"
 b0 7"
 b0 6"
 bx 5"
@@ -296,7 +307,7 @@ b0 0"
 bx -"
 x,"
 x+"
-0*"
+x*"
 b0 )"
 b0 ("
 bx '"
@@ -305,7 +316,7 @@ bx &"
 bx $"
 x#"
 x""
-0!"
+x!"
 b0 ~
 b0 }
 bx |
@@ -325,7 +336,7 @@ bx o
 bx n
 xm
 xl
-0k
+xk
 b0 j
 b0 i
 bx h
@@ -334,7 +345,7 @@ bx g
 bx e
 xd
 xc
-0b
+xb
 b0 a
 b0 `
 bx _
@@ -403,6 +414,12 @@ x!
 $end
 #2000
 b0 M
+0f
+0]
+0<"
+03"
+0%"
+0z
 05
 07
 06
@@ -412,6 +429,12 @@ b0 K
 b0 P
 b0 R
 0%
+0k
+0b
+0A"
+08"
+0*"
+0!"
 1&
 0I
 1-

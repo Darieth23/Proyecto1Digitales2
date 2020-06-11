@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Jun  3 21:45:50 2020
+[*]
+[dumpfile] "/home/diego/Downloads/RxV2/bancopruebasrx.vcd"
+[dumpfile_mtime] "Wed Jun  3 08:15:44 2020"
+[dumpfile_size] 188900
+[savefile] "/home/diego/Downloads/RxV2/Rxsimulacion.gtkw"
+[timestart] 0
+[size] 1855 1056
+[pos] -723 -1
+*-16.660095 373300 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bancopruebas.
+[sst_width] 223
+[signals_width] 161
+[sst_expanded] 1
+[sst_vpaned_height] 320
+@28
+bancopruebas.phy_condrx.clk_32f
+bancopruebas.phy_Estrx.reloj_4f
+bancopruebas.phy_Estrx.reloj_2f
+bancopruebas.phy_Estrx.reloj_f
+bancopruebas.phy_condrx.rst
+@200
+-Rx Conductual
+@28
+bancopruebas.phy_condrx.entrada_tx
+@22
+bancopruebas.phy_condrx.out0[7:0]
+bancopruebas.phy_condrx.out1[7:0]
+bancopruebas.phy_condrx.out2[7:0]
+bancopruebas.phy_condrx.out3[7:0]
+@28
+bancopruebas.phy_condrx.salida_rx
+bancopruebas.phy_condrx.val_out0
+bancopruebas.phy_condrx.val_out1
+bancopruebas.phy_condrx.val_out2
+bancopruebas.phy_condrx.val_out3
+bancopruebas.phy_condrx.salida_rx
+@200
+-Rx Estructural
+@28
+bancopruebas.phy_Estrx.entrada_tx
+@22
+bancopruebas.phy_Estrx.out0[7:0]
+bancopruebas.phy_Estrx.out1[7:0]
+bancopruebas.phy_Estrx.out2[7:0]
+bancopruebas.phy_Estrx.out3[7:0]
+@28
+bancopruebas.phy_Estrx.val_out0
+bancopruebas.phy_Estrx.val_out1
+bancopruebas.phy_Estrx.val_out2
+bancopruebas.phy_Estrx.val_out3
+bancopruebas.phy_Estrx.salida_rx_Est
+[pattern_trace] 1
+[pattern_trace] 0
